@@ -1,5 +1,8 @@
-# Part of kubusweather
-(Files without assets like images, js etc. cause it won't upload)
+# Kubusweather
+Website for mini air quality sensor I made to monior air quality in Bilcza, Poland
+
+# only part
+No images and icons cause they won't upload
 
 # Whats new:
 
