@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+html{
+    background-color: black;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+  background: linear-gradient(324deg, #050e23 0%, #2f3545 100%);
+}
+.container{
+  top: 0;
+  left: 0;
+  position: relative;
+  height: 40vh;
+  background: none;
+}
+.dashboard{
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('nightclouds.webp');
+  background-repeat: repeat-x;
+  animation: animate 240s linear infinite;
+  animation-direction: reverse;
+}
+.maindataclass{
+    border: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+@keyframes animate {
+  0%{background-position: 0px;}
+  100%{background-position: 5440px;}
+}
+.kubusweather{
+  font-size: 3.5vh;
+  text-align: left;
+  margin-left: 1vw;
+  vertical-align: top;
+  float: left;
+  color: white;
+}
+.maintemp{
+  text-align: center;
+  font-size: 11vh;
+  vertical-align: middle;
+  color: #ffffff;
+  margin: auto;
+}
+.statusp{
+  font-size: 2.5vh;
+  color: #ffffff;
+  border: 0;
+  border-color: none;
+  text-align: center;
+  margin: auto;
+  vertical-align: bottom;
+}
+p.statusp{
+    border: none;
+}
+.datatable{
+  margin: auto;
+  font-size: 4vh;
+  line-height: 7vh;
+}
+.icon{
+  width: 3.2vh;
+}
+.dataname{
+  font-size: 3.2vh;
+  color: white;
+  text-align: center;
+}
+.data{
+  font-size: 3.2vh;
+  color: white;
+  text-align: left;
+}
+.margintop{
+  width: 5vh;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.copyright{
+  color: grey;
+  text-align: center;
+}
+.section2{
+    height: 70vh;
+}
+
