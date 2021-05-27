@@ -1,6 +1,9 @@
 # kubusweather
 Website for mini air quality sensor I made to monior air quality in Bilcza, Poland
 
+# trailer
+https://youtu.be/LVFqEYNJLPU
+
 # only part
 No images and icons cause they won't upload
 
