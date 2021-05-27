@@ -1,4 +1,4 @@
-# Kubusweather
+# kubusweather
 Website for mini air quality sensor I made to monior air quality in Bilcza, Poland
 
 # only part
